@@ -1,0 +1,79 @@
+# UE4 Project directories to ignore
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+
+# Engine generated files
+/*.VC.opendb
+
+
+# Precompiled Assets
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Executables
+*.exe
+*.out
+*.app
+*.ipa
+
+
+# Don't ignore icon files in Build
+!Build/**/*.ico
+
+
+# Visual Studio solutions
+/*.sln
+/*.sdf
+/*.opensdf
+/*.suo
+
+
+# Linux Project files
+/*.pro
+/*.kdev4
+/CMakeLists.txt
+/Makefile
+
+
+# Xcode Project files
+/*.xcodeproj
+
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Saved/
